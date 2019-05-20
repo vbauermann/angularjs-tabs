@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-tabs",
+  "version": "0.0.1",
+  "authors": [
+    "Vitor Bauermann Silveira <bauermannvitor@gmail.com>"
+  ],
+  "description": "AnguarJS tabs with no dependencies required",
+  "main": [
+            "js/angularjs-tabs.js",
+            "css/angularjs-tabs.css"
+	],
+  "ignore": [
+    "node_modules"
+  ],
+  "licence": "MIT"
+}
