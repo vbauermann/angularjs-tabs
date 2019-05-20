@@ -35,5 +35,5 @@ angular.module('myApp', ['angularjsTabs']);
 </div>
 ```
 ### Demo
-visit <a href="http://vbauermann.github.io/angularjs-tabs/">http://vbauermann.github.io/angularjs-tabs/</a> to see the directive in action
+Visit <a href="http://vbauermann.github.io/angularjs-tabs/">http://vbauermann.github.io/angularjs-tabs/</a> to see the directive in action
 
