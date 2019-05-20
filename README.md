@@ -18,7 +18,7 @@ angular.module('myApp', ['angularjsTabs']);
 
 ```html
 <ul class="tab-nav" tab-nav data-tab-group="tabs-demo" data-active-class="active">
-      <li><a data-target-tab="tab-1" data-default-tab>Tab#1</a></li>
+      <li><a data-target-tab="tab-1" class="active">Tab#1</a></li>
       <li><a data-target-tab="tab-2">Tab#2</a></li>
       <li><a data-target-tab="tab-3">Tab#3</a></li>
 </ul>
