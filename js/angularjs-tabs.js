@@ -33,7 +33,7 @@
         }
         for (var i = 0; i < tabTriggers.length; i++) {
           var trigger = tabTriggers[i].children[0];
-          if (trigger.classList.contains(activeClass)) {
+          if (trigger.getAttribute('data-default-tab')) {
             showTab(trigger);
           }
           trigger.addEventListener('click', function (e) {
