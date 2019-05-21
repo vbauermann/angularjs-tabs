@@ -17,11 +17,13 @@ angular.module('myApp', ['angularjsTabs']);
 * once you've added the module in your app. Use the code below to get the tabs up and running:
 
 ```html
-<ul class="tab-nav" tab-nav data-tab-group="tabs-demo" data-active-class="active">
-      <li><a data-target-tab="tab-1" class="active">Tab#1</a></li>
-      <li><a data-target-tab="tab-2">Tab#2</a></li>
-      <li><a data-target-tab="tab-3">Tab#3</a></li>
-</ul>
+<div class="tabs-navigation tab-nav-wrapper">
+	<ul class="tab-nav" tab-nav data-tab-group="tabs-demo" data-active-class="active">
+	      <li><a data-target-tab="tab-1" class="active">Tab#1</a></li>
+	      <li><a data-target-tab="tab-2">Tab#2</a></li>
+	      <li><a data-target-tab="tab-3">Tab#3</a></li>
+	</ul>
+</div>
 <div class="tabs-panels">
 	<div class="tab-panel" data-tab-group="tabs-demo" data-tab-name="tab-1">
 		<!--  Tab 1 content -->
